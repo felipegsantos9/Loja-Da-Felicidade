@@ -35,11 +35,9 @@ a{
 
 .tela{
     display: flex;
-    flex-wrap: wrap;
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     background-color: #0B5497;
     border: 5px solid #D06125;
     border-radius: 15px;
