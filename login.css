@@ -1,0 +1,174 @@
+h1{
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-size: 40px;
+    font-style: normal;
+    color: white;
+  }
+  
+p{
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 6px;
+}
+
+
+body{
+    background-color: #000000;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}   
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+    height: 312px;
+}
+
+
+.tela{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0B5497;
+    border: 5px solid #D06125;
+    border-radius: 15px;
+    height: 956px;
+    width: 440px;
+    margin: 10px auto;
+}
+
+.Login{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 21px;
+}
+
+input{
+    width: 338px;
+    height: 29px;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    border: none;
+}
+
+.Login p{
+    margin-bottom: 8px;
+}
+
+.Senha{
+    display: flex;
+    flex-direction: column;
+    margin-top: 21px;
+    margin-bottom: 8px;
+}
+
+.Senha a{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: right;
+    align-items: end;
+    color: white;
+    margin: 1px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.botao{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 214px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-left: 65px;
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-size: 32px;
+    font-style: normal;
+    margin-bottom: 45px;
+    color:  #0B5497;
+    border-radius: 15px;
+}
+
+
+
+.botaocadastro {
+    display: flex;
+    flex-wrap: wrap;
+    width: 214px;
+    height: 40px;
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-size: 32px;
+    font-style: normal;
+    margin-top: 4px ;
+    margin-bottom: 35px;
+    color:  #0B5497;
+    border-radius: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.botaosocial {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 214px;
+    height: 40px;
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+    border-radius: 15px;
+    color:  #0B5497;
+}
+.botaosocial1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 214px;
+    height: 40px;
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+    margin: 1px;
+    color:  #0B5497;
+    margin-bottom: 7px;
+    border-radius: 15px;
+}
+
+.botaosocial img{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+.botaosocial1 img{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+}

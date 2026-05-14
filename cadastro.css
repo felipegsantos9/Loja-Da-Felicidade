@@ -1,0 +1,102 @@
+body{
+    background-color: #000000;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}   
+
+h1{
+    display: flex ;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;   
+    font-size: 31px;
+    font-style: normal;
+    color: white;
+  }
+
+  p{
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-size: 15   px;
+    font-style: normal;
+    color: white;
+  }
+
+a{
+    text-decoration: none;
+}
+
+.tela{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0B5497;
+    border: 5px solid #D06125;
+    border-radius: 15px;
+    height: 956px;
+    width: 440px;
+    margin: 10px auto;
+}
+
+.Logo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    height: 40px;
+}
+
+::placeholder{
+    text-align: center;
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+    color: #0B5497;
+}
+
+input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 42px;
+    width: 336px;
+    border-radius: 15px;
+    margin-bottom: 31px;
+}
+
+.checkbox{
+    background-color: #D06125;
+    color: white;
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    border: none;
+    cursor: pointer;
+    width: 20px;
+}
+
+.submit {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 214px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-left: 65px;
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-size: 32px;
+    font-style: normal;
+    color: #0B5497;
+}

@@ -1,0 +1,56 @@
+body{
+    background-color: #000000;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}  
+
+h1{
+    display: flex ;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-size: 31px;
+    font-style: normal;
+    color: white;
+  }
+
+  p{
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-size: 15   px;
+    font-style: normal;
+    color: white;
+  }
+
+a{
+    text-decoration: none;
+}
+
+.tela{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0B5497;
+    border: 5px solid #D06125;
+    border-radius: 15px;
+    height: 956px;
+    width: 440px;
+    margin: 10px auto;
+}
+
+.LogoJorge{
+    display: flex;
+    justify-content: top;
+    align-items: top;
+    align-self: top;
+    flex-wrap: wrap;
+    height: 40px;
+}
